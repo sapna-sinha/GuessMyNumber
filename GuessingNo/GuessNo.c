@@ -9,7 +9,7 @@ int main(){
     // printf("The number is %d\n", number);
     // Keep running the loop until the number is guessed
     do{
-        printf("Guess the number between 1 to 100\n");
+        printf("Guess the number between 1 to 100..You have given 5 attempt\n");
         scanf("%d", &guess);
          if(nguesses<1){
             printf("You Loose...Better Luck Next time.");
