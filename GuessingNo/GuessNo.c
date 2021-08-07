@@ -11,7 +11,7 @@ int main(){
     do{
         printf("Guess the number between 1 to 100..You have given 5 attempt\n");
         scanf("%d", &guess);
-         if(nguesses<1){
+         if(nguesses<=1){
             printf("You Loose...Better Luck Next time.");
             break;
         }
